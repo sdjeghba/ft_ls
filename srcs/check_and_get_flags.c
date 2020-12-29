@@ -18,7 +18,7 @@ void		fill_flags(char c, t_flags *flag)
 	flag->r = ((c == 'r') ? 1 : flag->r);
 	flag->a = ((c == 'a') ? 1 : flag->a);
 	flag->t = ((c == 't') ? 1 : flag->t);
-	flag->o = ((c == 'o') ? 1 : flag->t);
+	flag->o = ((c == 'o') ? 1 : flag->o);
 	flag->big_g = ((c == 'G') ? 1 : flag->big_g);
 	flag->p = ((c == 'p') ? 1 : flag->p);
 	flag->big_t = ((c == 'T') ? 1 : flag->big_t);
